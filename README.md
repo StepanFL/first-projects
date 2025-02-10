@@ -13,3 +13,17 @@
 ## Як запустити
 Клонуйте репозиторій
 
+# Learning Programming Projects
+
+This repository contains learning projects created for practicing web development and working with databases.
+
+## Technologies Used
+
+- PHP (OOP, PDO)
+- MySQL
+- HTML, CSS, JavaScript
+- Composer
+- Git
+
+## How to Run  
+Clone the repository:
