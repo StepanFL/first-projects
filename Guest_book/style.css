@@ -1,0 +1,10 @@
+*{
+box-sizing: border-box;
+padding: 5px;
+margin: 0;
+background-color: rgb(137, 134, 134);
+}
+
+ul, li{
+  list-style: none;
+}

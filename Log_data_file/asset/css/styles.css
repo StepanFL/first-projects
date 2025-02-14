@@ -1,0 +1,164 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #cec9c9;
+  /* display: flex; */
+  flex-direction: column;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-grow: 1;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #e0dcdc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 48%;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-sizing: border-box;
+}
+/* 
+.card:hover {
+  transform: translateY(-10px);
+} */
+
+.card h2 {
+  font-size: 25px;
+  color: #1e1d1d;
+}
+
+.card p {
+  color: #1c1a1a;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #148118;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+  background-color: #945c0d;
+}
+
+button {
+  border: none;
+  /* outline: none; */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.home{
+  font-size: 24px;
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 11px;
+  border-radius: 5px;
+}
+.home:hover{
+  background-color: #b4660c;
+}
+textarea{
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.message {
+  color: rgb(18, 96, 18);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-full-contnet{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.small-buttn{
+    background-color: #148118;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+  
+.small-buttn:hover {
+    background-color: #945c0d;
+}
+
+.p-custom{
+  color: #1c1a1a;
+  font-size: 18px
+}
