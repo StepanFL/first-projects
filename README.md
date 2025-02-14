@@ -10,9 +10,6 @@
 - Composer
 - Git
 
-## Як запустити
-Клонуйте репозиторій
-
 # Learning Programming Projects
 
 This repository contains learning projects created for practicing web development and working with databases.
@@ -24,6 +21,3 @@ This repository contains learning projects created for practicing web developmen
 - HTML, CSS, JavaScript
 - Composer
 - Git
-
-## How to Run  
-Clone the repository:
